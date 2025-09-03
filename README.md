@@ -43,4 +43,4 @@ O site é parcialmente responsivo e se adapta a diferentes tamanhos de tela.
 
 ## Licença
 
-Este projeto é de código aberto e pode ser usado livremente.
+Este projeto é de código aberto e pode ser usado livremente, encontrando-se sob a Licença MIT.
