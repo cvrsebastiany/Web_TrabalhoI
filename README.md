@@ -1,6 +1,7 @@
 # Saúde +
 
 Saúde + é uma aplicação web simples desenvolvida para a disciplina de Tópicos Especiais em Programação III - Web.
+
 ## Funcionalidades
 
 - **Página Inicial**: Seleção de perfil (Profissional da Saúde ou Paciente)
