@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html"><img id="imagem" src="icones/logoVerdeFundoBranco.svg" height="60"></a>
+        <h1>Saúde +</h1>
+    </div>
+
+    <div>
+        <h1>Formulário de Agendamento de Exames</h1>
+    </div>
+
+    <div class="formulario">
+        <form method="" action="">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome de Usuário">
+            <br>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" placeholder="Idade">
+            <br>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="CPF do Usuário">
+            <br>
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" placeholder="Data de Nascimento">
+            <br>
+
+            <label for="sexo">Sexo</label>
+            <label>
+                <input type="radio" name="sexo" , value="F">
+                Feminino
+            </label>
+            <label>
+                <input type="radio" name="sexo" , value="M">
+                Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" , value="M">
+                Outro
+            </label>
+            <label>
+                <input type="radio" name="sexo" , value="M">
+                Não se aplica
+            </label>
+            <br>
+
+            <label for="cidade">Cidade de Residência</label>
+            <select name="cidade" id="cidade">
+                <option value="" selected disabled hidden>Selecione uma cidade</option>
+                <option value="eldoradoDoSul">Eldorado do Sul</option>
+                <option value="portoAlegre">Porto Alegre</option>
+                <option value="guaiba">Guaíba</option>
+                <option value="canoas">Canoas</option>
+            </select>
+            <br>
+
+            <div class="checkboxExames">
+                <label for="exames">Escolha abaixo os exames que precisa realizar:</label><br><br>
+                <input type="checkbox" name="eletrocardiograma" value="eletrocardiograma">
+                <label for="gripe">Eletrocardiograma</label><br>
+                <input type="checkbox" name="raioXTorax" value="raioXTorax">
+                <label for="gripe">Raio-x de tórax</label><br>
+                <input type="checkbox" name="tipagemSanguinea" value="tipagemSanguinea">
+                <label for="gripe">Tipagem sanguínea</label><br>
+                <br>
+            </div>
+
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes" rows="4"
+                placeholder="Descreva informações importantes para a equipe durante a realização do exame. Comorbidades, dificuldades de locomoção, alergias ou sintomas em geral."></textarea>
+            <br>
+
+            <button>Enviar registro</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
