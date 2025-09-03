@@ -43,7 +43,6 @@ p {
     color: white;
 }
 
-
 .seletorCards {
     display: flex;
     flex-direction: row;
@@ -149,6 +148,11 @@ form {
     align-items: center;
 }
 
+.classificacaoRiscoInformativo {
+    text-align: center;
+    margin: 30px;
+}
+
 @media (max-width: 600px) {
     .header {
         height: 80px;
@@ -160,7 +164,7 @@ form {
         margin: 0 0 0 10px;
     }
 
-    .card-selector {
+    .seletorCards {
         flex-direction: column;
         align-items: center;
     }
@@ -221,9 +225,4 @@ form {
         display: flex;
         flex-direction: row;
     }
-}
-
-.classificacaoRiscoInformativo {
-    text-align: center;
-    margin: 30px;
 }
