@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Paciente - Saúde +</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <a href="index.html"><img id="imagem" src="icones/logoVerdeFundoBranco.svg" height="60"></a>
+        <h1>Saúde +</h1>
+    </div>
+
+    <div class="formulario">
+        <h3>Login do Paciente</h3>
+        <form action="telaPaciente.html" method="get">
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+            <br>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            <br>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
 </body>
-</html>l
+
+</html>

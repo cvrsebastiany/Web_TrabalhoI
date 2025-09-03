@@ -44,7 +44,7 @@ p {
 }
 
 
-.card-selector {
+.seletorCards {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -221,4 +221,9 @@ form {
         display: flex;
         flex-direction: row;
     }
+}
+
+.classificacaoRiscoInformativo {
+    text-align: center;
+    margin: 30px;
 }
